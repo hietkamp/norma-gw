@@ -1,7 +1,7 @@
 #!/bin/bash
 script_home="$( cd "$( dirname "$0" )" && pwd )"
 #dockers_list="elasticsearch kafka flink graphdb"
-dockers_list="network kafka graphdb"
+dockers_list="kafka graphdb"
 
 function toLower {
   echo $(echo ${@} | tr '[:upper:]' '[:lower:]')
@@ -21,6 +21,9 @@ case "${command}" in
             docker compose up -d
             sleep 3
         done
+        #Separate handling of the nuts docker, just stary one node because of syncing errors between nodes
+        cd ${script_home}/ext/nuts
+        docker compose up -d nuts1
         cd ${script_home}
         ;;
     stop)
