@@ -29,4 +29,4 @@ Start vervolgens de gateway.
 ```bash
 ./manage go
 ```
-In de ext directory zijn dockerfiles opgenomen voor elasticsearch en flink. Dit betreft een experiment om de kafka streams in beeld te brengen via kimana. Dat experiment is niet gereed.
+In de ext directory zijn dockerfiles opgenomen voor elasticsearch en flink. Dit betreft een experiment om de kafka streams in beeld te brengen via kibana. Dat experiment is niet gereed.
