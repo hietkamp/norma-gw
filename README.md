@@ -14,7 +14,7 @@ Er wordt geen ondersteuning op verleend en is niet voor bedoeld voor productie!
 ## Installeren
 
 ```bash
-git clone git@github.com:hietkamp/norma-http.git
+git clone git@github.com:hietkamp/norma-gw.git
 ```
 
 ## Opstarten
