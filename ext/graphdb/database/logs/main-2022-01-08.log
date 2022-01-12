@@ -1,0 +1,8 @@
+[INFO ] 2022-01-08 12:51:59,910 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-08 12:52:00,771 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-08 12:52:12,305 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-08 12:52:12,306 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-08 12:52:12,308 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-08 12:52:12,309 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-08 12:52:12,310 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[INFO ] 2022-01-08 12:52:18,530 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.

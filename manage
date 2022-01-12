@@ -1,0 +1,41 @@
+#!/bin/bash
+script_home="$( cd "$( dirname "$0" )" && pwd )"
+#dockers_list="elasticsearch kafka flink graphdb"
+dockers_list="network kafka graphdb"
+
+function toLower {
+  echo $(echo ${@} | tr '[:upper:]' '[:lower:]')
+}
+
+pushd "${script_home}" >/dev/null
+command=$(toLower ${1})
+shift || command=usage
+case "${command}" in
+    go)
+        go run main.go
+        ;;
+    start|up)
+        for docker in ${dockers_list}
+        do
+            cd ${script_home}/ext/${docker}
+            docker compose up -d
+            sleep 3
+        done
+        cd ${script_home}
+        ;;
+    stop)
+        for docker in ${dockers_list}
+        do
+            cd ${script_home}/ext/${docker}
+            docker compose stop
+            sleep 3
+        done
+        cd ${script_home}
+        ;;
+    sql-cli)
+        cd ${script_home}/ext/flink
+        docker compose exec sql-client ./start-sql-client.sh
+        cd ${script_home}
+        ;;
+esac
+popd >/dev/null

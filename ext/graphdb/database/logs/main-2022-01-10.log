@@ -1,0 +1,214 @@
+[INFO ] 2022-01-10 07:01:15,176 [repositories/news | c.o.f.s.GraphDBProtocolExceptionResolver] X-Request-Id: 9b167706-b80c-5309-8881-61e0b86619ba Client sent bad request (404)
+org.eclipse.rdf4j.http.server.ClientHTTPException: Unknown repository: news
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.setRequestAttributes(RepositoryInterceptor.java:107)
+	at org.eclipse.rdf4j.http.server.ServerInterceptor.preHandle(ServerInterceptor.java:32)
+	at org.eclipse.rdf4j.http.server.repository.RepositoryInterceptor.preHandle(RepositoryInterceptor.java:82)
+	at com.ontotext.forest.sesame.ForestRepositoryInterceptor.preHandle(ForestRepositoryInterceptor.java:32)
+	at com.ontotext.forest.sesame.ForestRepositoryInterceptor$$FastClassBySpringCGLIB$$d99bcd9f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:136)
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.ontotext.forest.sesame.ForestRepositoryInterceptor$$EnhancerBySpringCGLIB$$e618e793.preHandle(<generated>)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[WARN ] 2022-01-10 07:02:55,231 [http-nio-7200-exec-10 | c.o.g.GraphDBRepositoryManager] X-Request-Id: f5056fda-11e9-536c-a9f0-3f41cab7422c Custom repository sail in use: rdf4j:ShaclSail
+[INFO ] 2022-01-10 07:03:06,889 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Version: 9.10, revision: -1537149868
+[INFO ] 2022-01-10 07:03:06,891 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Build date: Wed Oct 13 16:09:03 GMT 2021
+[INFO ] 2022-01-10 07:03:06,894 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 License file: jar:file:/opt/graphdb/dist/lib/graphdb-free-runtime-9.10.0.jar!/GRAPHDB_LITE.license
+[INFO ] 2022-01-10 07:03:06,899 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Product:                 GRAPHDB_LITE
+[INFO ] 2022-01-10 07:03:06,900 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Usage restriction:       null
+[INFO ] 2022-01-10 07:03:06,901 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Licensee:                Freeware
+[INFO ] 2022-01-10 07:03:06,902 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Permitted use:           THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[INFO ] 2022-01-10 07:03:06,904 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Version:                 9.10
+[INFO ] 2022-01-10 07:03:06,905 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Expiry date:             none
+[INFO ] 2022-01-10 07:03:06,906 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Latest publication date: none
+[INFO ] 2022-01-10 07:03:06,907 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Max CPU cores:           null
+[INFO ] 2022-01-10 07:03:06,929 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Started repository news in READ/WRITE mode.
+[INFO ] 2022-01-10 07:03:06,933 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'partialRDFS' to default value 'false'
+[INFO ] 2022-01-10 07:03:06,935 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'transaction-isolation' to default value 'true'
+[INFO ] 2022-01-10 07:03:06,937 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'checkForValidPropertiesAndClasses' to default value 'false'
+[INFO ] 2022-01-10 07:03:06,938 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'transaction-mode' to default value 'safe'
+[INFO ] 2022-01-10 07:03:06,941 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'useShutdownHooks' to default value 'true'
+[INFO ] 2022-01-10 07:03:06,951 [repositories/news | c.o.GraphDBConfigParameters] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Cache pages for tuples: 7829
+[INFO ] 2022-01-10 07:03:06,953 [repositories/news | c.o.GraphDBConfigParameters] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Cache pages for predicates: 1118
+[INFO ] 2022-01-10 07:03:06,955 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-01-10 07:03:06,962 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Storage folder do not exists and is created: /opt/graphdb/home/data/repositories/news/storage
+[INFO ] 2022-01-10 07:03:07,012 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-01-10 07:03:07,013 [repositories/news | c.o.t.e.EntityPoolFactory] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Using entity pool implementation: transactional-disk
+[INFO ] 2022-01-10 07:03:07,019 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'epool.connection.cache.size' to default value '2000'
+[INFO ] 2022-01-10 07:03:07,031 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'graphdb.epool.onheap' to default value 'false'
+[INFO ] 2022-01-10 07:03:07,225 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'enable-pool-reversecache' to default value 'true'
+[INFO ] 2022-01-10 07:03:07,700 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'allow-system-entities-as-data' to default value 'false'
+[INFO ] 2022-01-10 07:03:07,705 [repositories/news | c.o.t.u.l.LimitedObjectCacheFactory] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Using LRU cache type: synch
+[INFO ] 2022-01-10 07:03:07,717 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'cache-ratio-so-os-cso-cos' to default value '[50, 50, 50]'
+[INFO ] 2022-01-10 07:03:08,035 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'graphdb.global.page.cache' to default value 'true'
+[INFO ] 2022-01-10 07:03:08,046 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'graphdb.page.cache.size' to default value '1.0G'
+[INFO ] 2022-01-10 07:03:08,541 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'virtual.repository.mode' to default value 'false'
+[INFO ] 2022-01-10 07:03:08,673 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'enable-debug-rules' to default value 'false'
+[INFO ] 2022-01-10 07:03:08,719 [repositories/news | c.o.t.InferencerFactory] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 ruleSet=owl2-rl-optimized, partialRdfs=false
+[INFO ] 2022-01-10 07:03:08,737 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'filter.obj.only.hint' to default value 'true'
+[INFO ] 2022-01-10 07:03:08,822 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'epool.journal.buffer.size' to default value '1024'
+[INFO ] 2022-01-10 07:03:08,961 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'check.pred.stats' to default value 'false'
+[INFO ] 2022-01-10 07:03:09,540 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'disable-plugins' to default value '[]'
+[INFO ] 2022-01-10 07:03:09,543 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'skip-default-plugins' to default value 'false'
+[INFO ] 2022-01-10 07:03:09,544 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Searching for plugins available in the classpath...
+[INFO ] 2022-01-10 07:03:09,649 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin direct
+[INFO ] 2022-01-10 07:03:09,652 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin notifications
+[INFO ] 2022-01-10 07:03:09,654 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin expose-entity
+[INFO ] 2022-01-10 07:03:09,656 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin literals-index
+[INFO ] 2022-01-10 07:03:09,658 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin script
+[INFO ] 2022-01-10 07:03:09,660 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin utils
+[INFO ] 2022-01-10 07:03:09,663 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin plugincontrol
+[INFO ] 2022-01-10 07:03:09,665 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin magic-predicates
+[INFO ] 2022-01-10 07:03:09,666 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin sparql-template
+[INFO ] 2022-01-10 07:03:09,668 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin tx-rollback
+[INFO ] 2022-01-10 07:03:09,669 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'register-plugins' to default value '[]'
+[INFO ] 2022-01-10 07:03:09,678 [repositories/news | c.o.GraphDBConfigParameters] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Reading external plugins from /opt/graphdb/dist/lib/plugins
+[INFO ] 2022-01-10 07:03:09,680 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'register-external-plugins' to default value '[/opt/graphdb/dist/lib/plugins]'
+[INFO ] 2022-01-10 07:03:09,681 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering external plugins...
+[INFO ] 2022-01-10 07:03:09,684 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/notifications-logger-plugin for plugins
+[INFO ] 2022-01-10 07:03:09,697 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin notifications-logger
+[INFO ] 2022-01-10 07:03:09,699 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/similarity-plugin for plugins
+[INFO ] 2022-01-10 07:03:09,757 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin similarity
+[INFO ] 2022-01-10 07:03:09,759 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/dependencies-plugin for plugins
+[INFO ] 2022-01-10 07:03:09,783 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin dependencies-plugin
+[INFO ] 2022-01-10 07:03:09,784 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/lucene-connector for plugins
+[INFO ] 2022-01-10 07:03:09,962 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin lucene-connector
+[INFO ] 2022-01-10 07:03:09,965 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/tx-rollback-plugin for plugins
+[WARN ] 2022-01-10 07:03:09,976 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Skipping duplicate plugin tx-rollback
+[INFO ] 2022-01-10 07:03:09,978 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/text-mining-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,003 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin text-mining
+[INFO ] 2022-01-10 07:03:10,005 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/autocomplete-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,036 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin autocomplete
+[INFO ] 2022-01-10 07:03:10,037 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/history-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,060 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin history
+[INFO ] 2022-01-10 07:03:10,062 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/rdfrank-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,080 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin rdfrank
+[INFO ] 2022-01-10 07:03:10,081 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/proof-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,090 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin proof
+[INFO ] 2022-01-10 07:03:10,092 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/geospatial-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,436 [repositories/news | c.o.t.p.g.FunctionLoader] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registered 1 functions from package com.ontotext.trree.plugin.geo.
+[INFO ] 2022-01-10 07:03:10,441 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin geospatial
+[INFO ] 2022-01-10 07:03:10,443 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/sparql-mm for plugins
+[INFO ] 2022-01-10 07:03:10,459 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin sparql-mm
+[INFO ] 2022-01-10 07:03:10,462 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/change-tracking-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,482 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin change-tracking
+[INFO ] 2022-01-10 07:03:10,485 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/mongodb-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,510 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin mongodb
+[INFO ] 2022-01-10 07:03:10,512 [repositories/news | c.o.t.f.GraphDBFreeSchemaRepository] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Scanning /opt/graphdb/dist/lib/plugins/geosparql-plugin for plugins
+[INFO ] 2022-01-10 07:03:10,672 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering plugin GeoSPARQL
+[INFO ] 2022-01-10 07:03:10,674 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugins... (DEFAULT)
+[INFO ] 2022-01-10 07:03:10,678 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'nonInterpretablePredicates' to default value 'null'
+[INFO ] 2022-01-10 07:03:10,691 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'GeoSPARQL'
+[INFO ] 2022-01-10 07:03:12,526 [repositories/news | c.o.t.g.FunctionLoader] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registered 50 functions from package com.useekm.geosparql.
+[INFO ] 2022-01-10 07:03:12,529 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'autocomplete'
+[INFO ] 2022-01-10 07:03:12,534 [repositories/news | c.o.t.p.a.AutocompletePluginUtils] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 >>>>>>>> AutocompletePlugin: No configuration file found at /opt/graphdb/home/data/repositories/news/storage/autocomplete/v2/config.properties. Assuming default options for plugin.
+[INFO ] 2022-01-10 07:03:12,539 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'change-tracking'
+[INFO ] 2022-01-10 07:03:12,540 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'dependencies-plugin'
+[INFO ] 2022-01-10 07:03:12,543 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'direct'
+[INFO ] 2022-01-10 07:03:12,545 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'expose-entity'
+[INFO ] 2022-01-10 07:03:12,547 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'geospatial'
+[INFO ] 2022-01-10 07:03:12,549 [repositories/news | c.o.t.p.g.GeoSpatialPlugin] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Plugin:geospatial initialized
+[INFO ] 2022-01-10 07:03:12,550 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'history'
+[INFO ] 2022-01-10 07:03:12,575 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'literals-index'
+[WARN ] 2022-01-10 07:03:12,611 [repositories/news | c.o.p.literals-index] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Rebuilding literals indexes. Starting from id:1
+[WARN ] 2022-01-10 07:03:12,678 [repositories/news | c.o.p.literals-index] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Complete in 0.066, num entries indexed:2
+[INFO ] 2022-01-10 07:03:12,678 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'lucene-connector'
+[INFO ] 2022-01-10 07:03:12,697 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'magic-predicates'
+[INFO ] 2022-01-10 07:03:12,699 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering InverseMagicPredicate: http://spinrdf.org/spif#foreach
+[INFO ] 2022-01-10 07:03:12,699 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#length
+[INFO ] 2022-01-10 07:03:12,700 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#concat
+[INFO ] 2022-01-10 07:03:12,701 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering InverseMagicPredicate: http://spinrdf.org/spif#for
+[INFO ] 2022-01-10 07:03:12,702 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering InverseMagicPredicate: http://spinrdf.org/spif#split
+[INFO ] 2022-01-10 07:03:12,702 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#member
+[INFO ] 2022-01-10 07:03:12,703 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering TupleFunction: http://jena.hpl.hp.com/ARQ/list#index
+[INFO ] 2022-01-10 07:03:12,704 [repositories/news | c.o.p.magic-predicates] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registering InverseMagicPredicate: http://jena.hpl.hp.com/ARQ/property#strSplit
+[INFO ] 2022-01-10 07:03:12,705 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'mongodb'
+[INFO ] 2022-01-10 07:03:12,706 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'notifications'
+[INFO ] 2022-01-10 07:03:12,708 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'notifications-logger'
+[INFO ] 2022-01-10 07:03:12,709 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'plugincontrol'
+[INFO ] 2022-01-10 07:03:12,711 [repositories/news | c.o.t.p.p.PluginControlPlugin] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Plugin:plugincontrol initialized
+[INFO ] 2022-01-10 07:03:12,713 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'proof'
+[INFO ] 2022-01-10 07:03:12,714 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'rdfrank'
+[INFO ] 2022-01-10 07:03:12,729 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'script'
+[INFO ] 2022-01-10 07:03:12,731 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'similarity'
+[INFO ] 2022-01-10 07:03:12,736 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'sparql-mm'
+[INFO ] 2022-01-10 07:03:12,798 [repositories/news | c.o.g.s.FunctionLoader] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Registered 58 functions from package com.github.tkurz.sparqlmm.function.
+[INFO ] 2022-01-10 07:03:12,800 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'sparql-template'
+[INFO ] 2022-01-10 07:03:12,802 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'text-mining'
+[INFO ] 2022-01-10 07:03:12,805 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'tx-rollback'
+[INFO ] 2022-01-10 07:03:12,806 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Initializing plugin 'utils'
+[INFO ] 2022-01-10 07:03:14,165 [repositories/news | c.o.t.s.i.PluginManager] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Finished initializing plugins
+[INFO ] 2022-01-10 07:03:14,169 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'graphdb.page.cache.size' to default value '1.0G'
+[INFO ] 2022-01-10 07:03:15,097 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'do.resolve.entities' to default value 'true'
+[INFO ] 2022-01-10 07:03:15,099 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'do.load.data' to default value 'true'
+[INFO ] 2022-01-10 07:03:15,100 [repositories/news | c.o.r.p.ParallelLoader] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Data will be parsed + resolved + loaded.
+[INFO ] 2022-01-10 07:03:15,101 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'graphdb.persistent.parallel.inferencers' to default value 'false'
+[INFO ] 2022-01-10 07:03:15,208 [repositories/news | c.o.r.p.ParallelLoader] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Using 6 threads for inference
+[INFO ] 2022-01-10 07:03:17,623 [repositories/news | o.e.r.s.s.ShaclSail] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Shapes will be persisted in: /opt/graphdb/home/data/repositories/news/shapes-graph/
+[INFO ] 2022-01-10 07:03:17,673 [repositories/news | o.e.r.h.s.r.n.NamespacesController] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 GET namespace list
+[INFO ] 2022-01-10 07:03:17,908 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Configured parameter 'custom.validation.queries.file' to default value 'null'
+[INFO ] 2022-01-10 07:03:18,043 [repositories/news | o.e.r.h.s.r.TupleQueryResultView] X-Request-Id: 5f57f79a-5333-5364-ae9a-dfb70e700a49 Request for query 3392903 is finished
+[INFO ] 2022-01-10 07:03:18,199 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] X-Request-Id: b67c2740-de9d-52c1-b9c3-86d2438b2670 Configured parameter 'deduplicate.construct' to default value 'true'
+[INFO ] 2022-01-10 07:03:18,247 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] X-Request-Id: b67c2740-de9d-52c1-b9c3-86d2438b2670 Configured parameter 'in-clause-max-members' to default value '16'
+[INFO ] 2022-01-10 07:03:18,248 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] X-Request-Id: b67c2740-de9d-52c1-b9c3-86d2438b2670 Configured parameter 'query.convert.values.clause' to default value 'true'
+[INFO ] 2022-01-10 07:03:18,260 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] X-Request-Id: b67c2740-de9d-52c1-b9c3-86d2438b2670 Configured parameter 'merge.join' to default value 'false'
+[INFO ] 2022-01-10 07:03:18,263 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] X-Request-Id: b67c2740-de9d-52c1-b9c3-86d2438b2670 Configured parameter 'PTO' to default value '2'
+[INFO ] 2022-01-10 07:03:18,264 [http-nio-7200-exec-4 | c.o.c.AbstractParameter] X-Request-Id: b67c2740-de9d-52c1-b9c3-86d2438b2670 Configured parameter 'FSIPC' to default value '2'
+[WARN ] 2022-01-10 07:04:08,760 [Finalizer | c.o.t.b.c.Connection] Release of PageIndex was not called before finalize method of Connection class
+[WARN ] 2022-01-10 07:04:08,762 [Finalizer | c.o.t.b.c.Connection] Release of PageIndex was not called before finalize method of Connection class
+[WARN ] 2022-01-10 07:04:18,484 [Finalizer | c.o.t.b.c.Connection] Release of PageIndex was not called before finalize method of Connection class
+[INFO ] 2022-01-10 07:06:25,706 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: 4fd518ac-974b-55dc-9a5a-8f3bf78726c8 GET query -818882345
+[INFO ] 2022-01-10 07:06:25,739 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 4fd518ac-974b-55dc-9a5a-8f3bf78726c8 Configured parameter 'hash.join' to default value 'false'
+[INFO ] 2022-01-10 07:06:25,746 [repositories/news | c.o.c.AbstractParameter] X-Request-Id: 4fd518ac-974b-55dc-9a5a-8f3bf78726c8 Configured parameter 'default.min.distinct.threshold' to default value '250.0M'
+[INFO ] 2022-01-10 07:06:25,789 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: 4fd518ac-974b-55dc-9a5a-8f3bf78726c8 Request for query -818882345 is finished
+[INFO ] 2022-01-10 07:27:17,124 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: f8dc91c0-b29a-5cb6-86a3-59f66869edd9 GET query -818882345
+[INFO ] 2022-01-10 07:27:17,162 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: f8dc91c0-b29a-5cb6-86a3-59f66869edd9 Request for query -818882345 is finished
+[INFO ] 2022-01-10 08:07:16,320 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: 0442262b-8037-5e71-8c8d-8baec0c69084 GET query -818882345
+[INFO ] 2022-01-10 08:07:16,386 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: 0442262b-8037-5e71-8c8d-8baec0c69084 Request for query -818882345 is finished

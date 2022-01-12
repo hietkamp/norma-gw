@@ -1,0 +1,54 @@
+[INFO ] 2022-01-06 16:32:39,686 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 16:32:40,221 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 16:33:10,440 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-06 16:33:10,443 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-06 16:33:10,450 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-06 16:33:10,453 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-06 16:33:10,455 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[INFO ] 2022-01-06 16:33:18,282 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 16:33:18,923 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 16:33:36,149 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 16:33:36,840 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:00:33,677 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:00:34,069 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:00:44,625 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-06 17:00:44,631 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-06 17:00:44,633 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-06 17:00:44,634 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-06 17:00:44,635 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-01-06 17:00:45,896 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 1@218ad282b13f
+[INFO ] 2022-01-06 17:00:49,278 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2022-01-06 17:02:09,600 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:02:10,319 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:02:21,648 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:02:22,095 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:02:30,684 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-06 17:02:30,686 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-06 17:02:30,688 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-06 17:02:30,688 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-06 17:02:30,689 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-01-06 17:02:32,056 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 1@218ad282b13f
+[INFO ] 2022-01-06 17:02:35,377 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2022-01-06 17:03:51,380 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:03:51,757 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:04:03,064 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:04:03,467 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:04:13,530 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:04:13,932 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:04:21,827 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-06 17:04:21,829 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-06 17:04:21,832 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-06 17:04:21,835 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-06 17:04:21,836 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-01-06 17:04:29,016 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 1@218ad282b13f
+[INFO ] 2022-01-06 17:04:40,014 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:04:40,414 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:04:52,805 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-06 17:04:53,560 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-06 17:05:01,969 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-06 17:05:01,971 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-06 17:05:01,972 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-06 17:05:01,973 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-06 17:05:01,974 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-01-06 17:05:03,047 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 1@218ad282b13f
+[INFO ] 2022-01-06 17:05:05,909 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.

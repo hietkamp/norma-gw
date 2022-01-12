@@ -1,0 +1,10 @@
+
+http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+en
+http://www.w3.org/2001/XMLSchema#string
+http://www.w3.org/2001/XMLSchema#double
+http://www.w3.org/2001/XMLSchema#long
+http://www.w3.org/2001/XMLSchema#decimal
+http://www.w3.org/2001/XMLSchema#date
+http://www.w3.org/2001/XMLSchema#gYear
+http://www.w3.org/2001/XMLSchema#gYearMonth

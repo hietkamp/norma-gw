@@ -1,0 +1,40 @@
+[INFO ] 2022-01-11 00:00:05,450 [main | c.o.g.s.GraphDB] GraphDB log keep alive message
+[INFO ] 2022-01-11 09:55:41,617 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: ad1209b9-6bcd-5f0d-a1f5-8ff61396bf7a GET query -818882345
+[INFO ] 2022-01-11 09:55:45,625 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: ad1209b9-6bcd-5f0d-a1f5-8ff61396bf7a Request for query -818882345 is finished
+[INFO ] 2022-01-11 11:29:46,795 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: 0a827963-43bc-5805-bd95-cb47b5ad8d8c GET query -818882345
+[INFO ] 2022-01-11 11:29:48,077 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: 0a827963-43bc-5805-bd95-cb47b5ad8d8c Request for query -818882345 is finished
+[INFO ] 2022-01-11 11:41:26,518 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: 98b7579b-c042-5b1f-b7cc-b87ced3f5a3c GET query -818882345
+[INFO ] 2022-01-11 11:41:26,749 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: 98b7579b-c042-5b1f-b7cc-b87ced3f5a3c Request for query -818882345 is finished
+[INFO ] 2022-01-11 11:45:23,156 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: f39a2cb7-5fce-504c-8c11-8dec3ec17c76 GET query -818882345
+[INFO ] 2022-01-11 11:45:23,364 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: f39a2cb7-5fce-504c-8c11-8dec3ec17c76 Request for query -818882345 is finished
+[INFO ] 2022-01-11 11:48:29,687 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: 60da7926-0907-51e5-9ed2-4d5163f6b64d GET query -818882345
+[INFO ] 2022-01-11 11:48:29,817 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: 60da7926-0907-51e5-9ed2-4d5163f6b64d Request for query -818882345 is finished
+[INFO ] 2022-01-11 11:49:15,099 [repositories/news | c.o.g.s.RepositoryController] X-Request-Id: b0f65ba6-a4a5-5b76-b3fe-72ed3876a8b3 GET query -818882345
+[WARN ] 2022-01-11 11:49:15,279 [Finalizer | c.o.t.b.c.Connection] Release of PageIndex was not called before finalize method of Connection class
+[INFO ] 2022-01-11 11:49:15,325 [repositories/news | c.o.g.s.TupleQueryResultView] X-Request-Id: b0f65ba6-a4a5-5b76-b3fe-72ed3876a8b3 Request for query -818882345 is finished
+[INFO ] 2022-01-11 18:22:21,611 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-11 18:22:22,656 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-11 18:22:37,703 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-11 18:22:37,707 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-11 18:22:37,712 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-11 18:22:37,719 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-11 18:22:37,725 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-01-11 18:22:53,967 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 1@218ad282b13f
+[INFO ] 2022-01-11 18:23:03,880 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-11 18:23:04,518 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-11 18:23:14,834 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-11 18:23:14,836 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-11 18:23:14,838 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-11 18:23:14,839 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-11 18:23:14,840 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-01-11 18:23:16,749 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 1@218ad282b13f
+[INFO ] 2022-01-11 18:23:21,421 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
+[INFO ] 2022-01-11 18:29:49,525 [main | c.o.g.Config] Using 'jar:file:/opt/graphdb/dist/lib/graphdb-application-common-9.10.0.jar!/com/ontotext/graphdb/logback.xml' as logback's configuration file
+[INFO ] 2022-01-11 18:29:50,635 [main | c.o.g.s.GraphDB] Starting GraphDB in workbench mode.
+[INFO ] 2022-01-11 18:30:04,915 [main | c.o.g.Config] GraphDB Home directory: /opt/graphdb/home
+[INFO ] 2022-01-11 18:30:04,917 [main | c.o.g.Config] GraphDB Config directory: /opt/graphdb/home/conf
+[INFO ] 2022-01-11 18:30:04,920 [main | c.o.g.Config] GraphDB Data directory: /opt/graphdb/home/data
+[INFO ] 2022-01-11 18:30:04,921 [main | c.o.g.Config] GraphDB Work directory: /opt/graphdb/home/work
+[INFO ] 2022-01-11 18:30:04,923 [main | c.o.g.Config] GraphDB Logs directory: /opt/graphdb/home/logs
+[WARN ] 2022-01-11 18:30:07,444 [main | o.e.r.s.h.DirectoryLockManager] Removing invalid lock 1@218ad282b13f
+[INFO ] 2022-01-11 18:30:13,205 [main | c.o.g.s.GraphDB] Started GraphDB in workbench mode at port 7200.
